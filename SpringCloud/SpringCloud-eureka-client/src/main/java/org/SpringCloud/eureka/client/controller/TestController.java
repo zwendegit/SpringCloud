@@ -6,7 +6,6 @@ import javax.annotation.Resource;
 
 import org.SpringCloud.eureka.client.bean.SpringUser;
 import org.SpringCloud.eureka.client.service.UserService;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

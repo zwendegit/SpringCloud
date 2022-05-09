@@ -26,7 +26,7 @@ public class Swagger2Configuration {
 
 			    .select() // 选择那些路径和 api 会生成 document
 
-			    .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller")) // 拦截的包路径
+			    .apis(RequestHandlerSelectors.basePackage("org.SpringCloud.eureka.client.controller")) // 拦截的包路径
 
 			    .paths(PathSelectors.regex("/*/.*"))// 拦截的接口路径
 
